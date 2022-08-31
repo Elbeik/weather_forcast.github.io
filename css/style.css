@@ -1,0 +1,159 @@
+
+a
+{
+    text-decoration: none;
+}
+.nav-item
+{
+    margin-left: 25px;
+}
+.nav-item .active
+{
+    color: #009ad8;
+    border: 2px solid #009ad8;
+}
+.nav-item a
+{
+
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-weight: 400;
+}
+.nav-item a:hover
+{
+    border: 2px solid #009ad8;
+    color: #009ad8;
+}
+.bg-sil
+{
+    background: #1e202b;
+    padding: 50px 0;
+}
+.img-text span
+{
+    font-size: 0.7142857143em;
+    color: #bfc1c8;
+    line-height: 2px;
+    
+}
+.img-text p
+{
+    line-height:3px;
+    font-size: 1.1428571429em;
+    color: white;
+}
+.bg-img
+{
+    background-image: url("../img/weather2.png");
+    background-position: center center;
+    background-size: cover;
+    min-height: 350px;
+    padding: 70px 0;
+}
+/* search  */
+.search-location
+{
+    
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border-radius: 30px;
+    
+}
+.locaction-form
+{
+    position: relative;
+    margin-bottom: 70px;  
+}
+.btn-seach
+{
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+.bg-color
+{
+    background-color: #1e202b;
+     min-height: 250;
+}
+.Weather-section .card 
+{
+    background-color: #1e202b;
+    height: 350px;
+}
+.Weather-section .card .head
+{
+    background: rgba(0, 0, 0, 0.1);
+    border-bottom: #1e202b  2px solid;
+    color: white;
+}
+.Weather-section .card .tempratear p
+{
+    font-weight: 700;
+    font-size: 5rem;
+}
+.Weather-section .card .co-blue
+{
+    color: blue;
+}
+.body-card
+{
+    height: 350px;
+}
+.three-col
+{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-40%);
+}
+.footer-card span
+{
+    margin-right: 20px;
+}
+.footer
+{
+    background: #262936;
+    padding: 50px 0;
+}
+.social-link a 
+{
+    color: #009ad8;
+    font-size: larger;
+    transition: 0.3s ease;
+
+}
+.social-link div
+{
+    background: #1e202b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    transition: 0.3s ease;
+}
+.social-link div:hover
+{
+    background-color: #009ad8;
+    color: white;
+}
+.social-link div:hover a
+{
+    color: white;
+}

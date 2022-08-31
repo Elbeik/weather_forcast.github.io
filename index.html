@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="icons-1.8.1/font/bootstrap-icons.css">
+        
+    </head>
+    <body>
+        <nav class="navbar-expand-lg bg-sil">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="img-bar d-flex">
+                    <a class="navbar-brand" href="#">
+                      <img src="img/weather1.png" alt="">
+                   </a>
+                      <a class="pt-3 img-text" href="#">
+                          <p>weather </p>
+                          <span >tagline goes here</span>
+                      </a>
+                </div>
+              <div class="collapse navbar-collapse flex-grow-0 px-5">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class=" active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="" href="#">Live Cameras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="" href="#">Photos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+       <div class="Weather-section ">
+            <div class="bg-img">
+                    <div class="container location">
+                      <form class="locaction-form">
+                          <input type="text" class="search-location" placeholder="Find your location..." id="search">
+                          <input type="button" class="btn-seach" value="Find" id="submit">
+                      </form>
+                    </div>            
+            </div>
+           
+            <div class="bg-color position-relative">
+              <div class="container three-col">
+                <div class="row g-0">
+                  <div class="col-md-4" id="current">
+                    <div class="card">
+                      <div class="head p-2 d-flex justify-content-between">
+                        <small id="dayOne">Saturday</small>
+                        <small id="date">4June</small>
+                      </div>
+                      <div class="body-card p-2">
+                        <p class="text-muted" id='loc'>cairo</p>
+                        <div class="tempratear d-flex justify-content-between text-white p-2">
+                          <p id="degreeOne"></p>
+                          <img src="" id='img' width="90" alt="">
+                        </div>
+                        <p class="co-blue" id="condWeather"></p>
+                        <div class="footer-card px-2 pb-4 text-muted">
+                          <span><img src="img/weather4.png" alt=""> <small id="tempPerc"> 20%</small> </span>
+                          <span><img src="img/weather5.png" alt=""> <small id="tempKm"> 18km/h</small>  </span>
+                          <span><img src="img/weather6.png" alt=""> <small id="tempDirection"> East</small> </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+                  <div class="col-md-4">
+                    <div class="card">
+                      <div class="col-12">
+                        <div class="head p-2 text-center">
+                          <small class="forcastDay">sunday</small>
+                        </div>
+                      </div>
+                      <div class="body-card d-flex justify-content-center align-items-center"> 
+                        <div>
+                          <div class="col-12">
+                            <div class="img-temp text-center">
+                              <img src="img/weather3.png" class="forcastImg" alt="">
+                            </div>
+                          </div>
+                          <div class=" temp-degree text-center">
+                            <p class="forcastTempC text-white mb-0">41.1 <sup>o</sup>C</p>
+                            <small class="forcastTempF text-white ">14.3 <sup>O</sup></small>
+                          </div>
+                          <p class="forcastCondition co-blue text-center">Sunny</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>   
+                  <div class="col-md-4">
+                    <div class="card">
+                      <div class="col-12">
+                        <div class="head p-2 text-center">
+                          <small class="forcastDay">sunday</small>
+                        </div>
+                      </div>
+                      <div class="body-card d-flex justify-content-center align-items-center"> 
+                        <div>
+                          <div class="col-12">
+                            <div class="img-temp text-center">
+                              <img src="img/weather3.png" class="forcastImg" alt="">
+                            </div>
+                          </div>
+                          <div class=" temp-degree text-center">
+                            <p class="forcastTempC text-white mb-0">41.1 <sup>o</sup>C</p>
+                            <small class="forcastTempF text-white ">14.3 <sup>O</sup></small>
+                          </div>
+                          <p class="forcastCondition co-blue text-center">blody</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>      
+                </div>
+              </div>
+            </div>
+       </div>
+
+       <div class="footer">
+         <div class="container">
+           <div class="row">
+             <div class="col-md-8">
+               <div class="subscribe">
+                 <form action="#" class="position-relative">
+                   <input type="text" class="search-location" placeholder="Enter your email to subscribe...">
+                   <input type="submit" class="btn-seach" value="subscribe">
+                 </form>
+               </div>
+             </div>
+             <div class="col-md-4">
+             <div class="social-link d-flex justify-content-end align-items-center pt-2">
+                 <div href="#"><a class="bi bi-facebook"></a></div>
+                 <div href="#"><a class="bi bi-twitter"></a></div>
+                 <div href="#"><a class="bi bi-google"></a></div>
+                 <div href="#"><a class="bi bi-pinterest"></a></div>
+             </div>
+             </div>
+           </div>
+           <div class="last">
+             <p class="text-white-50">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+           </div>
+         </div>
+       </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
